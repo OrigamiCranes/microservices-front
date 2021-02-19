@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{ title }} - HyenaHub</title>
+</head>
+<body>
+    <div class="wrapper">
+    <div class="whiteTitleBar">
+        <span class="navigation">
+            <a class="navigation" href= "{{ url_for('index') }}" > Home</a>
+        </span>
+    </div>
+    </div>
+    <hr>
+        {% block content %}{% endblock %}
+</body>
+</html>
